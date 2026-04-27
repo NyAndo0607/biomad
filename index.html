@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ── Titre & description ─────────────────────────────────────────── -->
+    <title>BioMad — Biodiversité Madagascar</title>
+    <meta name="description" content="Découvrez la biodiversité unique de Madagascar : flore endémique, faune fascinante, parcs nationaux et espèces menacées. Guide complet avec quiz interactif." />
+    <meta name="author" content="BioMad" />
+    <meta name="keywords" content="Madagascar, biodiversité, flore, faune, lémuriens, baobabs, parcs nationaux, espèces endémiques, conservation" />
+    <link rel="canonical" href="https://biomad.mg/" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- ── Open Graph ──────────────────────────────────────────────────── -->
+    <meta property="og:title" content="BioMad — Biodiversité Madagascar" />
+    <meta property="og:description" content="Explorez la biodiversité unique de Madagascar : 90% des espèces endémiques, parcs nationaux UNESCO, faune et flore exceptionnelles." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://biomad.mg/" />
+    <meta property="og:image" content="https://biomad.mg/og-default.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="BioMad" />
+
+    <!-- ── Twitter Card ────────────────────────────────────────────────── -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="BioMad — Biodiversité Madagascar" />
+    <meta name="twitter:description" content="Explorez la biodiversité unique de Madagascar : espèces endémiques, parcs nationaux et conservation." />
+    <meta name="twitter:image" content="https://biomad.mg/og-default.jpg" />
+
+    <!-- ── Favicon & thème ─────────────────────────────────────────────── -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <meta name="theme-color" content="#060f0a" />
+
+    <!-- ── Schema.org : WebSite ────────────────────────────────────────── -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "BioMad",
+      "alternateName": "Biodiversité Madagascar",
+      "url": "https://biomad.mg/",
+      "description": "Découvrez la biodiversité unique de Madagascar : flore endémique, faune fascinante, parcs nationaux et espèces menacées.",
+      "inLanguage": "fr",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://biomad.mg/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- ── Schema.org : Organization ──────────────────────────────────── -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "BioMad",
+      "url": "https://biomad.mg",
+      "logo": "https://biomad.mg/favicon.svg",
+      "description": "Plateforme de référence sur la biodiversité de Madagascar",
+      "foundingLocation": {
+        "@type": "Place",
+        "name": "Madagascar"
+      },
+      "sameAs": []
+    }
+    </script>
+
+    <!-- ── Schema.org : FAQPage (quiz biodiversité) ────────────────────── -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quel pourcentage des espèces de Madagascar sont endémiques ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Environ 90% des espèces sauvages de Madagascar sont endémiques, ce qui en fait l'un des hotspots de biodiversité les plus importants au monde."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien d'espèces de lémuriens existe-t-il à Madagascar ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "On recense plus de 200 espèces et sous-espèces de lémuriens, tous endémiques de Madagascar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Madagascar produit quel pourcentage de la vanille mondiale ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Madagascar produit environ 80% de la vanille mondiale, principalement dans la région SAVA au nord-est de l'île."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Anti-flash : applique le thème sauvegardé avant le premier paint -->
+    <script>
+      (function() {
+        var saved = localStorage.getItem("biomad-theme");
+        // Défaut : dark green
+        if (saved === "light") {
+          document.documentElement.classList.remove("dark");
+        } else {
+          document.documentElement.classList.add("dark");
+        }
+      })();
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

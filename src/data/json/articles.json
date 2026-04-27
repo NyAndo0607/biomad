@@ -1,0 +1,125 @@
+[
+  {
+    "id": 1,
+    "slug": "secrets-vanille-malgache",
+    "titre": "Les secrets de la vanille malgache",
+    "date": "15 Mars 2024",
+    "extrait": "Découvrez pourquoi la vanille de Madagascar est considérée comme la meilleure du monde et comment elle est cultivée par les paysans locaux.",
+    "image": "blog/vanilla-harvest.jpg",
+    "cat": "Agriculture",
+    "readTime": "5 min",
+    "author": "Hery R.",
+    "contenu": [
+      {
+        "type": "paragraph",
+        "text": "Madagascar produit près de 80 % de la vanille mondiale, et cette domination n'est pas le fruit du hasard. L'île bénéficie d'un climat tropical humide dans sa région nord-est — la SAVA — qui offre les conditions idéales : chaleur constante, pluies abondantes et ombre partielle sous la canopée forestière."
+      },
+      {
+        "type": "heading",
+        "text": "Une orchidée qui demande de la patience"
+      },
+      {
+        "type": "paragraph",
+        "text": "La vanille (Vanilla planifolia) est une orchidée grimpante originaire du Mexique. À Madagascar, chaque fleur doit être pollinisée à la main en moins de 12 heures après son éclosion — car l'abeille melipone, son pollinisateur naturel, est absente de l'île. Ce geste délicat, répété des milliers de fois par les paysans locaux, explique en grande partie la valeur de la vanille malgache."
+      },
+      {
+        "type": "heading",
+        "text": "De la fleur à la gousse : neuf mois de travail"
+      },
+      {
+        "type": "paragraph",
+        "text": "Après la pollinisation, la gousse met environ neuf mois à mûrir. Elle est récoltée encore verte, puis soumise à un processus d'affinage long : échaudage à 65 °C, étuvage pendant 48 heures, séchage au soleil pendant plusieurs semaines, puis affinage en caisse pendant plusieurs mois. C'est ce processus qui développe la vanilline et les 200 composés aromatiques qui font la réputation de la vanille Bourbon de Madagascar."
+      },
+      {
+        "type": "heading",
+        "text": "Un enjeu économique et social majeur"
+      },
+      {
+        "type": "paragraph",
+        "text": "La filière vanille fait vivre environ 80 000 familles de producteurs dans la région SAVA. Les fluctuations des cours mondiaux — la vanille peut valoir entre 20 et 600 dollars le kilo selon les années — exposent ces familles à une grande précarité. Des initiatives de commerce équitable et de coopératives locales cherchent à stabiliser leurs revenus et à investir dans des pratiques agroforestières durables."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "guide-plantes-medicinales",
+    "titre": "Guide des plantes médicinales",
+    "date": "8 Mars 2024",
+    "extrait": "Apprenez à reconnaître et utiliser les plantes traditionnelles pour votre bien-être quotidien selon la pharmacopée malgache.",
+    "image": "blog/medicinal-herbs.jpg",
+    "cat": "Santé",
+    "readTime": "8 min",
+    "author": "Voahangy A.",
+    "contenu": [
+      {
+        "type": "paragraph",
+        "text": "Madagascar abrite une pharmacopée traditionnelle d'une richesse exceptionnelle. Avec plus de 12 000 espèces végétales dont 90 % sont endémiques, l'île est un véritable laboratoire naturel. Les tradipraticiens malgaches, appelés ombiasy, transmettent depuis des générations un savoir botanique précieux que la science moderne commence seulement à explorer."
+      },
+      {
+        "type": "heading",
+        "text": "Le Katrafay : l'anti-inflammatoire des forêts du sud"
+      },
+      {
+        "type": "paragraph",
+        "text": "Le Katrafay (Cedrelopsis grevei) est l'une des plantes médicinales les plus utilisées à Madagascar. Son écorce, réduite en poudre ou infusée, est reconnue pour ses propriétés anti-inflammatoires et fortifiantes. Elle entre dans la composition de nombreux produits cosmétiques et de bien-être commercialisés à l'international. Attention : classée vulnérable par l'UICN, sa récolte doit être raisonnée."
+      },
+      {
+        "type": "heading",
+        "text": "L'Aloe macroclada : cicatrisant endémique"
+      },
+      {
+        "type": "paragraph",
+        "text": "Endémique des hautes terres centrales, cet aloès est utilisé depuis des siècles pour traiter les brûlures, cicatriser les plaies et apaiser les irritations cutanées. Son gel translucide, extrait des feuilles charnues, est appliqué directement sur la peau. Des études préliminaires confirment ses propriétés antibactériennes et hydratantes."
+      },
+      {
+        "type": "heading",
+        "text": "Précautions et respect des savoirs traditionnels"
+      },
+      {
+        "type": "paragraph",
+        "text": "L'usage des plantes médicinales doit toujours se faire avec discernement. Certaines espèces peuvent interagir avec des médicaments ou présenter des contre-indications. Il est conseillé de consulter un professionnel de santé avant toute automédication, et de s'approvisionner auprès de producteurs locaux certifiés pour préserver les espèces sauvages menacées."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "lemuriens-tresors-menaces",
+    "titre": "Les lémuriens, trésors menacés",
+    "date": "1 Mars 2024",
+    "extrait": "État des lieux des espèces de lémuriens et des actions de conservation urgentes pour sauver ces icônes de Madagascar.",
+    "image": "blog/lemur-baby.jpg",
+    "cat": "Conservation",
+    "readTime": "6 min",
+    "author": "Tahiana M.",
+    "contenu": [
+      {
+        "type": "paragraph",
+        "text": "Madagascar est le seul endroit au monde où vivent les lémuriens à l'état sauvage. Ces primates, apparus il y a plus de 60 millions d'années, ont évolué en totale isolation sur l'île pour donner naissance à plus de 200 espèces et sous-espèces. Aujourd'hui, 98 % d'entre elles sont menacées d'extinction selon l'UICN — un record mondial qui place Madagascar en état d'urgence écologique."
+      },
+      {
+        "type": "heading",
+        "text": "L'Indri indri : le chant qui s'éteint"
+      },
+      {
+        "type": "paragraph",
+        "text": "L'Indri (Indri indri) est le plus grand lémurien vivant, pouvant atteindre 90 cm. Son chant puissant, qui résonne dans les forêts de l'est, est l'un des sons les plus emblématiques de Madagascar. Classé en danger critique (CR), il ne survit que dans quelques fragments de forêt primaire et ne se reproduit pas en captivité, ce qui rend sa conservation particulièrement urgente."
+      },
+      {
+        "type": "heading",
+        "text": "Les principales menaces"
+      },
+      {
+        "type": "paragraph",
+        "text": "La déforestation reste la menace numéro un : Madagascar a perdu plus de 90 % de sa couverture forestière originelle. Le tavy (agriculture sur brûlis), l'exploitation illégale de bois précieux et le braconnage pour la viande de brousse déciment les populations. Le changement climatique aggrave la situation en modifiant la phénologie des forêts dont dépendent les lémuriens pour leur alimentation."
+      },
+      {
+        "type": "heading",
+        "text": "Les actions de conservation en cours"
+      },
+      {
+        "type": "paragraph",
+        "text": "Face à cette urgence, plusieurs organisations — dont le Lemur Conservation Network, Madagascar Biodiversity Partnership et le Durrell Wildlife Conservation Trust — travaillent avec les communautés locales pour créer des corridors forestiers, développer l'écotourisme comme alternative économique et former des gardes forestiers. Ces actions donnent des résultats encourageants dans certaines zones, mais nécessitent un soutien international durable."
+      }
+    ]
+  }
+]

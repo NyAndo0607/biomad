@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "nom": "Tsingy de Bemaraha",
+    "region": "Menabe",
+    "superficie": "1 520 km²",
+    "lat": -18.5,
+    "lng": 44.8,
+    "description": "Site UNESCO célèbre pour ses formations rocheuses karstiques uniques et sa biodiversité exceptionnelle.",
+    "image": "parks/tsingy-bemaraha.jpg",
+    "especes": ["Lémuriens", "Caméléons", "Oiseaux endémiques"]
+  },
+  {
+    "id": 2,
+    "nom": "Andasibe-Mantadia",
+    "region": "Alaotra-Mangoro",
+    "superficie": "155 km²",
+    "lat": -18.9,
+    "lng": 48.4,
+    "description": "Le meilleur endroit pour observer l'Indri indri dans une forêt primaire luxuriante.",
+    "image": "parks/andasibe.jpg",
+    "especes": ["Indri", "Caméléons", "Orchidées"]
+  },
+  {
+    "id": 3,
+    "nom": "Parc de l'Isalo",
+    "region": "Ihorombe",
+    "superficie": "815 km²",
+    "lat": -22.5,
+    "lng": 45.3,
+    "description": "Paysages spectaculaires de canyons gréseux, piscines naturelles turquoise et savane rocheuse.",
+    "image": "parks/isalo.jpg",
+    "especes": ["Lémuriens", "Reptiles", "Plantes succulentes"]
+  },
+  {
+    "id": 4,
+    "nom": "Masoala",
+    "region": "SAVA",
+    "superficie": "2 300 km²",
+    "lat": -15.6,
+    "lng": 50.2,
+    "description": "La plus grande réserve naturelle de Madagascar, couvrant forêt tropicale et récifs coralliens.",
+    "image": "parks/masoala.jpg",
+    "especes": ["Lémuriens", "Baleines", "Oiseaux"]
+  },
+  {
+    "id": 5,
+    "nom": "Ranomafana",
+    "region": "Vatovavy-Fitovinany",
+    "superficie": "438 km²",
+    "lat": -21.2,
+    "lng": 47.4,
+    "description": "Forêt tropicale humide abritant le lémurien bamboo et de nombreuses espèces de palmiers.",
+    "image": "parks/isalo.jpg",
+    "especes": ["Lémuriens", "Palmiers", "Amphibiens"]
+  },
+  {
+    "id": 6,
+    "nom": "Kirindy Mitea",
+    "region": "Menabe",
+    "superficie": "720 km²",
+    "lat": -20.8,
+    "lng": 44.2,
+    "description": "Zone sèche avec forêts denses et mangroves, habitat du lémurien sifaka.",
+    "image": "parks/tsingy-bemaraha.jpg",
+    "especes": ["Sifaka", "Tortues", "Oiseaux"]
+  },
+  {
+    "id": 7,
+    "nom": "Zahamena",
+    "region": "Alaotra-Mangoro",
+    "superficie": "643 km²",
+    "lat": -17.5,
+    "lng": 48.8,
+    "description": "Forêt tropicale humide et lac, refuge de l'aye-aye et du propithèque.",
+    "image": "parks/andasibe.jpg",
+    "especes": ["Aye-aye", "Propithèques", "Caméléons"]
+  },
+  {
+    "id": 8,
+    "nom": "Andringitra",
+    "region": "Ihorombe",
+    "superficie": "310 km²",
+    "lat": -22.1,
+    "lng": 46.9,
+    "description": "Massif montagneux avec pics granitiques et flore de haute altitude unique.",
+    "image": "parks/isalo.jpg",
+    "especes": ["Lémuriens", "Orchidées", "Rapaces"]
+  }
+]

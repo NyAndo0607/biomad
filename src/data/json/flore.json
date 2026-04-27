@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "nom": "Baobab",
+    "sci": "Adansonia grandidieri",
+    "cat": "Arbre",
+    "uicn": "EN",
+    "uicnLabel": "En Danger",
+    "description": "Le roi des arbres, emblème de Madagascar. Peut vivre plus de 1000 ans et stocker jusqu'à 120 000 litres d'eau dans son tronc imposant.",
+    "image": "flora/baobab.jpg",
+    "usages": ["Ornemental", "Traditionnel", "Alimentation"]
+  },
+  {
+    "id": 2,
+    "nom": "Ravinala",
+    "sci": "Ravenala madagascariensis",
+    "cat": "Arbre",
+    "uicn": "LC",
+    "uicnLabel": "Préoccupation mineure",
+    "description": "L'arbre du voyageur, symbole de Madagascar. Ses feuilles en éventail s'orientent est-ouest et recueillent l'eau de pluie.",
+    "image": "flora/ravinala.jpg",
+    "usages": ["Construction", "Alimentation", "Ornemental"]
+  },
+  {
+    "id": 3,
+    "nom": "Katrafay",
+    "sci": "Cedrelopsis grevei",
+    "cat": "Plante médicinale",
+    "uicn": "VU",
+    "uicnLabel": "Vulnérable",
+    "description": "Plante médicinale prisée pour ses propriétés anti-inflammatoires et fortifiantes. Pilier de la pharmacopée traditionnelle malgache.",
+    "image": "flora/katrafay.jpg",
+    "usages": ["Médicinal", "Cosmétique", "Bien-être"]
+  },
+  {
+    "id": 4,
+    "nom": "Vanille",
+    "sci": "Vanilla planifolia",
+    "cat": "Épice",
+    "uicn": "LC",
+    "uicnLabel": "Préoccupation mineure",
+    "description": "La vanille de Madagascar est réputée mondialement. Orchidée grimpante qui représente 80% de la production mondiale.",
+    "image": "flora/vanille.jpg",
+    "usages": ["Cuisine", "Parfumerie", "Médicinal"]
+  },
+  {
+    "id": 5,
+    "nom": "Voanjobory",
+    "sci": "Vigna subterranea",
+    "cat": "Légume",
+    "uicn": "LC",
+    "uicnLabel": "Préoccupation mineure",
+    "description": "Légumineuse locale riche en protéines, base de nombreux plats traditionnels malgaches. Résistante à la sécheresse.",
+    "image": "flora/voanjobory.jpg",
+    "usages": ["Alimentation", "Culture vivrière"]
+  },
+  {
+    "id": 6,
+    "nom": "Raketa",
+    "sci": "Opuntia ficus-indica",
+    "cat": "Fruit",
+    "uicn": "LC",
+    "uicnLabel": "Préoccupation mineure",
+    "description": "Figuier de Barbarie parfaitement adapté au climat aride du sud. Ressource alimentaire vitale pour les communautés locales.",
+    "image": "flora/raketa.jpg",
+    "usages": ["Alimentation", "Fourrage", "Barrière naturelle"]
+  },
+  {
+    "id": 7,
+    "nom": "Aloe macroclada",
+    "sci": "Aloe macroclada",
+    "cat": "Plante médicinale",
+    "uicn": "NT",
+    "uicnLabel": "Quasi-menacé",
+    "description": "Aloe endémique du centre de Madagascar, utilisé depuis des siècles en médecine traditionnelle pour ses vertus cicatrisantes.",
+    "image": "flora/aloe.jpg",
+    "usages": ["Médicinal", "Cosmétique"]
+  },
+  {
+    "id": 8,
+    "nom": "Palmier Satrana",
+    "sci": "Bismarckia nobilis",
+    "cat": "Arbre",
+    "uicn": "LC",
+    "uicnLabel": "Préoccupation mineure",
+    "description": "Majestueux palmier aux feuilles en éventail argentées, symbole du paysage malgache.",
+    "image": "flora/satrana.jpg",
+    "usages": ["Construction", "Artisanat", "Ornemental"]
+  }
+]

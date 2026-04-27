@@ -1,0 +1,37 @@
+[
+  {
+    "q": "Quel pourcentage des espèces de Madagascar sont endémiques ?",
+    "hint": "Un chiffre qui impressionne le monde entier…",
+    "opts": ["50%", "70%", "90%", "100%"],
+    "correct": 2,
+    "expl": "Environ 90% des espèces sauvages de Madagascar sont endémiques !"
+  },
+  {
+    "q": "Quel arbre est surnommé 'l'arbre du voyageur' ?",
+    "hint": "Ses feuilles s'orientent est-ouest…",
+    "opts": ["Baobab", "Ravinala", "Katrafay", "Palmier Satrana"],
+    "correct": 1,
+    "expl": "Le Ravinala est appelé 'arbre du voyageur' car ses feuilles servaient de boussole."
+  },
+  {
+    "q": "Combien d'espèces de lémuriens existe-t-il ?",
+    "hint": "Un chiffre qui a doublé avec les nouvelles découvertes…",
+    "opts": ["50", "100", "200", "350"],
+    "correct": 2,
+    "expl": "On recense plus de 200 espèces et sous-espèces de lémuriens !"
+  },
+  {
+    "q": "Quel est le plus grand prédateur de Madagascar ?",
+    "hint": "Ce n'est pas un félin mais il y ressemble…",
+    "opts": ["Lémurien", "Fossa", "Caméléon de Parson", "Crocodile du Nil"],
+    "correct": 1,
+    "expl": "La Fossa est le plus grand carnivore de Madagascar."
+  },
+  {
+    "q": "La vanille de Madagascar représente quel % de la production mondiale ?",
+    "hint": "Une domination quasi-totale…",
+    "opts": ["30%", "50%", "70%", "80%"],
+    "correct": 3,
+    "expl": "Madagascar produit environ 80% de la vanille mondiale !"
+  }
+]

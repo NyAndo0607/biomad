@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "nom": "Lémur Indri",
+    "sci": "Indri indri",
+    "uicn": "CR",
+    "icon": "🐒",
+    "image": "fauna/indri.jpg",
+    "population": 1000,
+    "populationMax": 5000,
+    "description": "Le plus grand lémurien vivant, son chant légendaire est désormais rare dans les forêts de l'est.",
+    "menace": "Déforestation et braconnage"
+  },
+  {
+    "id": 2,
+    "nom": "Tortue Géante d'Aldabra",
+    "sci": "Aldabrachelys gigantea",
+    "uicn": "VU",
+    "icon": "🐢",
+    "image": "fauna/tortue-geante.jpg",
+    "population": 100000,
+    "populationMax": 200000,
+    "description": "La plus grande tortue du monde survivante, protégée mais toujours vulnérable.",
+    "menace": "Changement climatique et pollution"
+  },
+  {
+    "id": 3,
+    "nom": "Fossa",
+    "sci": "Cryptoprocta ferox",
+    "uicn": "VU",
+    "icon": "🐆",
+    "image": "fauna/fossa.jpg",
+    "population": 2500,
+    "populationMax": 10000,
+    "description": "Le plus grand carnivore de Madagascar, sa survie est directement liée à celle des forêts tropicales.",
+    "menace": "Perte d'habitat et chasse"
+  },
+  {
+    "id": 4,
+    "nom": "Caméléon de Parson",
+    "sci": "Calumma parsonii",
+    "uicn": "NT",
+    "icon": "🦎",
+    "image": "fauna/cameleon-parson.jpg",
+    "population": 3000,
+    "populationMax": 8000,
+    "description": "Le plus grand caméléon du monde, capturé illégalement pour le commerce international.",
+    "menace": "Trafic illégal d'espèces"
+  },
+  {
+    "id": 5,
+    "nom": "Pygargue de Madagascar",
+    "sci": "Haliaeetus vociferoides",
+    "uicn": "CR",
+    "icon": "🦅",
+    "image": "fauna/fossa.jpg",
+    "population": 160,
+    "populationMax": 8000,
+    "description": "Grand rapace piscivore endémique de Madagascar, l'un des oiseaux les plus menacés d'Afrique.",
+    "menace": "DDT, destruction des mangroves"
+  },
+  {
+    "id": 6,
+    "nom": "Héron de Humblot",
+    "sci": "Ardea humbloti",
+    "uicn": "EN",
+    "icon": "🦩",
+    "image": "fauna/fossa.jpg",
+    "population": 1000,
+    "populationMax": 2000,
+    "description": "Grand héron endémique de Madagascar, le plus grand héron d'Afrique.",
+    "menace": "Persécution par croyances (fady), perte des forêts primaires"
+  },
+  {
+    "id": 7,
+    "nom": "Aye-Aye",
+    "sci": "Daubentonia madagascariensis",
+    "uicn": "EN",
+    "icon": "🐭",
+    "image": "fauna/indri.jpg",
+    "population": 1000,
+    "populationMax": 2000,
+    "description": "Lémurien nocturne au doigt filiforme unique pour extraire les larves sous l'écorce.",
+    "menace": "Persécution par croyances (fady), perte des forêts primaires"
+  },
+  {
+    "id": 8,
+    "nom": "Vanga à bec corail",
+    "sci": "Schistochlamys rufoviridis",
+    "uicn": "NT",
+    "icon": "🐦",
+    "image": "fauna/indri.jpg",
+    "population": 1000,
+    "populationMax": 2000,
+    "description": "Oiseau endémique au bec rouge caractéristique, grimpeur ressemblant à une sittelle.",
+    "menace": "Déforestation Est (22% perte)"
+  }
+]

@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ══════════════════════════════════════════════════════════════════════════
+   VARIABLES — MODE JOUR (:root) + MODE NUIT (.dark)
+══════════════════════════════════════════════════════════════════════════ */
+@layer base {
+
+  /* ── Mode Jour : vert naturel lumineux ─────────────────────────────── */
+  :root {
+    --background: 140 20% 97%;
+    --foreground: 150 35% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 150 35% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 150 35% 10%;
+    --primary: 152 65% 28%;
+    --primary-foreground: 140 30% 97%;
+    --secondary: 140 20% 92%;
+    --secondary-foreground: 152 65% 20%;
+    --muted: 140 15% 93%;
+    --muted-foreground: 150 15% 42%;
+    --accent: 155 50% 35%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 140 15% 88%;
+    --input: 140 15% 88%;
+    --ring: 152 65% 28%;
+    --radius: 0.75rem;
+
+    --green: 152 65% 28%;
+    --green-light: 152 55% 42%;
+    --green-accent: 152 60% 38%;
+    --green-muted: 150 25% 55%;
+    --ocre: 38 55% 52%;
+    --ocre-light: 38 50% 65%;
+    --sand: 48 40% 93%;
+
+    --gradient-hero: linear-gradient(145deg, hsl(150 50% 10% / 0.96) 0%, hsl(152 45% 18% / 0.93) 40%, hsl(160 40% 22% / 0.90) 100%);
+    --gradient-nature: linear-gradient(135deg, hsl(150 55% 18%) 0%, hsl(155 50% 26%) 40%, hsl(162 45% 30%) 100%);
+    --gradient-card: linear-gradient(160deg, hsl(140 20% 98%) 0%, hsl(144 18% 95%) 100%);
+    --gradient-accent: linear-gradient(to right, hsl(152 65% 38%), hsl(165 55% 42%));
+    --gradient-danger: linear-gradient(160deg, hsl(0 35% 15%), hsl(0 30% 22%));
+
+    --shadow-soft: 0 4px 24px hsl(150 30% 0% / 0.08);
+    --shadow-hover: 0 14px 48px hsl(150 30% 0% / 0.14);
+    --shadow-green: 0 4px 16px hsl(152 65% 28% / 0.2);
+
+    --font-display: 'Playfair Display', serif;
+    --font-body: 'DM Sans', sans-serif;
+
+    --sidebar-background: 140 22% 95%;
+    --sidebar-foreground: 150 30% 22%;
+    --sidebar-primary: 152 65% 28%;
+    --sidebar-primary-foreground: 140 30% 97%;
+    --sidebar-accent: 140 18% 90%;
+    --sidebar-accent-foreground: 152 65% 20%;
+    --sidebar-border: 140 15% 87%;
+    --sidebar-ring: 152 65% 28%;
+  }
+
+  /* ── Mode Nuit : dark green gradient ───────────────────────────────── */
+  .dark {
+    --background: 150 25% 6%;
+    --foreground: 140 30% 90%;
+    --card: 148 22% 9%;
+    --card-foreground: 140 25% 88%;
+    --popover: 148 22% 9%;
+    --popover-foreground: 140 25% 88%;
+    --primary: 152 70% 48%;
+    --primary-foreground: 150 25% 6%;
+    --secondary: 150 20% 14%;
+    --secondary-foreground: 140 25% 80%;
+    --muted: 150 18% 12%;
+    --muted-foreground: 140 15% 52%;
+    --accent: 165 55% 38%;
+    --accent-foreground: 150 25% 6%;
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 150 15% 15%;
+    --input: 150 15% 15%;
+    --ring: 152 70% 48%;
+
+    --green: 152 70% 48%;
+    --green-light: 152 60% 58%;
+    --green-accent: 152 65% 52%;
+    --green-muted: 150 30% 25%;
+    --ocre: 38 55% 52%;
+    --ocre-light: 38 50% 65%;
+    --sand: 150 18% 12%;
+
+    --gradient-hero: linear-gradient(145deg, hsl(150 30% 5% / 0.97) 0%, hsl(152 40% 10% / 0.95) 40%, hsl(165 35% 12% / 0.93) 100%);
+    --gradient-nature: linear-gradient(135deg, hsl(150 40% 8%) 0%, hsl(155 45% 14%) 40%, hsl(162 40% 18%) 100%);
+    --gradient-card: linear-gradient(160deg, hsl(148 25% 10%) 0%, hsl(152 22% 13%) 100%);
+    --gradient-accent: linear-gradient(to right, hsl(152 70% 48%), hsl(165 55% 42%));
+    --gradient-danger: linear-gradient(160deg, hsl(0 35% 10%), hsl(0 30% 16%));
+
+    --shadow-soft: 0 4px 24px hsl(152 70% 10% / 0.5);
+    --shadow-hover: 0 14px 48px hsl(152 70% 15% / 0.6);
+    --shadow-green: 0 4px 16px hsl(152 70% 48% / 0.25);
+
+    --sidebar-background: 150 28% 7%;
+    --sidebar-foreground: 140 20% 72%;
+    --sidebar-primary: 152 70% 48%;
+    --sidebar-primary-foreground: 150 25% 6%;
+    --sidebar-accent: 150 20% 12%;
+    --sidebar-accent-foreground: 140 25% 85%;
+    --sidebar-border: 150 15% 12%;
+    --sidebar-ring: 152 70% 48%;
+  }
+
+  /* ── Reset & base styles ────────────────────────────────────────────── */
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+
+  ::selection {
+    background: hsl(var(--primary) / 0.25);
+    color: hsl(var(--foreground));
+  }
+
+  :focus-visible {
+    outline: 2px solid hsl(var(--primary));
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
+   UTILITIES
+══════════════════════════════════════════════════════════════════════════ */
+@layer utilities {
+
+  .text-gradient-nature {
+    background: var(--gradient-accent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .text-green-accent {
+    color: hsl(var(--green-accent));
+  }
+
+  .bg-gradient-hero    { background: var(--gradient-hero); }
+  .bg-gradient-nature  { background: var(--gradient-nature); }
+  .bg-gradient-card    { background: var(--gradient-card); }
+  .bg-gradient-danger  { background: var(--gradient-danger); }
+
+  .shadow-nature       { box-shadow: var(--shadow-soft); }
+  .shadow-nature-hover { box-shadow: var(--shadow-hover); }
+
+  .bg-sand { background-color: hsl(var(--sand)); }
+
+  .border-glow {
+    border: 1px solid hsl(152 70% 48% / 0.2);
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  .border-glow:hover {
+    border-color: hsl(152 70% 48% / 0.5);
+    box-shadow: 0 0 20px hsl(152 70% 48% / 0.12), var(--shadow-hover);
+  }
+
+  .section-divider::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 3px;
+    background: var(--gradient-accent);
+    border-radius: 2px;
+  }
+
+  .section-glow { position: relative; }
+  .section-glow::before {
+    content: '';
+    position: absolute;
+    inset: -30px;
+    background: radial-gradient(ellipse at center, hsl(152 70% 48% / 0.06) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: -1;
+  }
+
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
+   COMPOSANTS GLOBAUX
+══════════════════════════════════════════════════════════════════════════ */
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: hsl(var(--muted-foreground) / 0.3); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: hsl(var(--muted-foreground) / 0.5); }
+
+/* Glow ring sur les cartes */
+.card-green-glow { position: relative; }
+.card-green-glow::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(135deg, hsl(152 70% 48% / 0.08), transparent 60%);
+  pointer-events: none;
+}
+
+/* Animations */
+@keyframes leafFall {
+  0%   { opacity: 0; transform: translateY(-20px) rotate(0deg); }
+  10%  { opacity: 0.4; }
+  90%  { opacity: 0.15; }
+  100% { opacity: 0; transform: translateY(100vh) rotate(720deg) translateX(60px); }
+}
+
+@keyframes greenPulse {
+  0%, 100% { box-shadow: 0 0 0 0 hsl(152 70% 48% / 0.3); }
+  50%       { box-shadow: 0 0 0 8px hsl(152 70% 48% / 0); }
+}
+.animate-green-pulse { animation: greenPulse 2.5s ease-in-out infinite; }
+
+/* ══════════════════════════════════════════════════════════════════════════
+   RESPONSIVE — Ajustements globaux
+══════════════════════════════════════════════════════════════════════════ */
+
+/* Sur mobile, supprimer la marge du sidebar (géré par Tailwind lg:ml-*) */
+@media (max-width: 1023px) {
+  main {
+    margin-left: 0 !important;
+  }
+}
+
+/* Images responsive par défaut */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Sections : padding réduit sur mobile */
+section {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Titres responsives */
+@media (max-width: 640px) {
+  .font-display {
+    word-break: break-word;
+  }
+}
